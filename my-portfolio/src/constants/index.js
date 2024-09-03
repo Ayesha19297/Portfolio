@@ -40,32 +40,36 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "QKart- E-Commerce Website",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+    technologies: ["HTML", "CSS", "React.js","Material UI", "Node.js", "MongoDB"],
+    link:"https://ayesha19297-qkartfrontend.netlify.app/",
   },
   {
-    title: "Task Management App",
+    title: "Pokemon swiper game",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A simple animated game to make a pokemon team from the given characters.",
+    technologies: ["HTML", "CSS", "React.js", "Framer motion"],
+    link:"https://ayesha19297-pokemon-swiper.netlify.app/",
   },
   {
-    title: "Portfolio Website",
+    title: "Qtrip - Travel website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    link:"https://ayesha19297-qtrip-dynamic-frontend.netlify.app/",
   },
   {
     title: "Blogging Platform",
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+    technologies: ["HTML", "CSS", "React.js", "local storage", "Quill rich editor"],
+    link:"https://ayesha19297-blogswebsite.netlify.app/",
   },
 ];
 
