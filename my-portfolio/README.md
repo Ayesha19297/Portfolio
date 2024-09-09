@@ -1,4 +1,14 @@
-# React + Vite
+Portfolio
+
+Tech stack : React + Vite , tailwind css
+
+Features:
+
+Navbar listing all the profile icons,
+About section,
+Technologies,
+List of projects,
+Contact info.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

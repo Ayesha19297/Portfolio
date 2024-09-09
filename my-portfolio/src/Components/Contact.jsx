@@ -22,7 +22,7 @@ const Contact = () => {
           {CONTACT.address}
         </motion.p>
         <motion.a
-          href="#"
+          href="mailto:ayesha19297@gmail.com"
           whileInView={{ opacity: 1, y: 0 }}
           initial={{ opacity: 0, y: -100 }}
           transition={{ duration: 0.5 }}
