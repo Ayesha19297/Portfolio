@@ -10,6 +10,8 @@ Technologies,
 List of projects,
 Contact info.
 
+Explore the portfolio : https://ayesha19297-portfolio.netlify.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
