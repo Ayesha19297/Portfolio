@@ -33,7 +33,7 @@ const Projects = () => {
               whileInView={{ opacity: 1, x: 0 }}
               initial={{ opacity: 0, x: 100 }}
               transition={{ duration: 1 }}
-              className="w-full max-w-xl lg:w-3/4 "
+              className="w-full max-w-xl lg:w-3/4"
             >
               <h4 className="mb-2 text-purple-700 font-semibold text-2xl">
                 {project.title}
@@ -49,14 +49,16 @@ const Projects = () => {
                   Explore live by clicking here
                 </a>
               </p>
-              {project.technologies.map((tech, index) => (
-                <span
-                  key={index}
-                  className="mr-2 rounded bg-neutral-400 px-2 py-1 text-sm font-medium text-black-900"
-                >
-                  {tech}
-                </span>
-              ))}
+              <div className="flex flex-wrap">
+                {project.technologies.map((tech, index) => (
+                  <span
+                    key={index}
+                    className="mr-2 mb-4 rounded bg-neutral-400 px-4 py-2 text-sm font-medium text-black w-full sm:w-auto"
+                  >
+                    {tech}
+                  </span>
+                ))}
+              </div>
             </motion.div>
           </div>
         ))}
