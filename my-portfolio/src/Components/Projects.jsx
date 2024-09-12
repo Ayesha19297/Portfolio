@@ -49,11 +49,11 @@ const Projects = () => {
                   Explore live by clicking here
                 </a>
               </p>
-              <div className="flex flex-wrap">
+              <div className="flex flex-wrap gap-2">
                 {project.technologies.map((tech, index) => (
                   <span
                     key={index}
-                    className="mr-2 mb-4 rounded bg-neutral-400 px-4 py-2 text-sm font-medium text-black w-full sm:w-auto"
+                    className="w-1/2 sm:w-auto px-2 mb-4 rounded bg-neutral-400 px-4 py-2 text-sm text-center font-medium text-black"
                   >
                     {tech}
                   </span>
